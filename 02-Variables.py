@@ -24,7 +24,7 @@ print(type(is_true))
 print(type(is_ligth))
 print(type(var_1), type(var_2), type(var_3))
 
-print('La longitud de mi nombre es de:', len(first_name), 'y la de mi firstname es:', len(lastname))
+print('La longitud de mi nombre es de: ', len(first_name), 'y la de mi firstname es:', len(lastname))
 
 num_one, num_two = 5, 4
 addition = num_one + num_two
@@ -48,7 +48,7 @@ area_of_circle = 3.14 * (radius**2)
 circulum_of_cicle = 2 * 3.14 * radius
 print('El area es de:', area_of_circle, 'y la longitud es de:', circulum_of_cicle)
 
-radius = int(input("Introduce el radio que deseeas calcular"))
+radius = int(input("Introduce el radio que deseeas calcular "))
 area_of_circle = 3.14 * (radius**2)
 circulum_of_cicle = 2 * 3.14 * radius
 print('El area es de:', area_of_circle, 'y la longitud es de:', circulum_of_cicle)
